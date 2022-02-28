@@ -1,0 +1,6 @@
+npx cypress run --reporter mochawesome
+npx mochawesome-merge <path> > new-filename.json
+npm install mochawesome-merge
+npm install mochawesome-report-generator
+npm install mochawesome --save-dev
+npx cypress open

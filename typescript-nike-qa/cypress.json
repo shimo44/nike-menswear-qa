@@ -1,0 +1,11 @@
+{
+  "watchForFileChanges": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "charts": true,
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "reportDir": "cypress/resources/reports"
+  }
+}
